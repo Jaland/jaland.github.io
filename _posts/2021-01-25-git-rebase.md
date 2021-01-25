@@ -25,9 +25,6 @@ pick b2149dc Commit we want to keep
 s c5489da Commit to lose
 
 # Rebase 263e7ff..b2149dc onto 263e7ff (1 command)
-#
-# Commands:
-#...
 ````
 
 * Update commit message
