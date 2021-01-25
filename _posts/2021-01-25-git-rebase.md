@@ -12,7 +12,7 @@ A quick and dirty on combining multiple commits. Can be used to clean up commit 
 
 ### Steps
 
-*Run Rebase Command*
+**Run Rebase Command**
 
 Running it interactively makes it easier:
 ```bash
@@ -35,7 +35,6 @@ s c5489da Commit to lose
 * Update commit message
  * By default it will just combine all of the commit messages into one. But you can override with your own commit message
 
-#### **`Commit Message File`**
 ````
 # This is a combination of 2 commits.
 # This is the 1st commit message:
@@ -48,7 +47,7 @@ Commit we want to keep
 Commit we want to lose
 ````
 
-*Push to git*
+**Push to git**
 
 Requires a forced push since you are rewriting history
   * Makes you feel like the historian of the winning side doesn't it. 
@@ -74,7 +73,7 @@ The main intent of rebasing is to squash multiple commits on a local branch into
 
 ## Tips and Tricks
 
-Replace `picks` with squash `s`:
+Replace `picks` with squash `s` inside your rebase file:
 
 ```bash
 :%s/pick/s
