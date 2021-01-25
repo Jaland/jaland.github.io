@@ -1,1 +1,16 @@
-Hello World
+---
+layout: default
+title: Latest Posts
+---
+
+<h2>Latest Post</h2>
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+<p>{{ site.posts }}</p>
+{% for yearMonth in postsByYearMonth %}
+  <h3>{{ yearMonth.name }}</h3>
+    <ul>
+      {% for post in yearMonth.items %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}
