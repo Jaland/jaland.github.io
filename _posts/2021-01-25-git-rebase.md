@@ -32,9 +32,11 @@ s c5489da Commit to lose
 # Rebase 263e7ff..b2149dc onto 263e7ff (1 command)
 ````
 
-* Update commit message
- * By default it will just combine all of the commit messages into one. But you can override with your own commit message
+**Update commit message**
+* By default it will just combine all of the commit messages into one. But you can override with your own commit message
 
+
+#### **`Commit Message File`**
 ````
 # This is a combination of 2 commits.
 # This is the 1st commit message:
