@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+.category {
+  border-radius: 13px;
+  background: #73AD21;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: large;
+  vertical-align: middle;
+}
+
+h2.category {
+  border-radius: 13px;
+  // TODO: Make background dynamic based on category
+  background: #73AD21;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
+}

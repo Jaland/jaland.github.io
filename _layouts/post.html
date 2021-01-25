@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>{{ page.title }} - <span class="category">{{ page.category }}</span></h1>
+<p>{{ page.date | date_to_string }} - {{ page.author | default James Land }}</p>
+
+{{ content }}
+
+
+<h6>Tags:</h6>
+{% for tag in page.tags %}
+<span class="tags">{{ tag }}</span>
+{% endfor %}
