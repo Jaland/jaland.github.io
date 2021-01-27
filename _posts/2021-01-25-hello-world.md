@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World Post!"
-tags: basic github example
+tags: basic example helloworld
 category: github
 ---
 
