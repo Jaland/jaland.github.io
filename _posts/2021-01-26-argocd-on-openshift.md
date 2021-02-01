@@ -10,12 +10,18 @@ category: openshift
 
 ## Deploying ArgoCD to the cluster (Operator)
 
-For my first deploy I am just going to use the Red Hat provided Operator on Openshift
+For my first deploy I am just going to use the Red Hat provided Operator on Openshift, but will include direct install instructions
 
-Deploy that with `Operator Hub` -> `ArgoCD`
-<sub>I used default settings and named my deployment `argocd`</sub>
+1. Deploy With Operator
+  Deploy that with `Operator Hub` -> `ArgoCD`
+  <sub>I used default settings and named my deployment `argocd`</sub>
 
-Inside the Operator create a new `ArgoCD`
+  Inside the Operator create a new `ArgoCD`
+
+2. Deploy with direct install
+```
+oc apply -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
 
 Create a passthrough route (change service name as needed):
 ```
