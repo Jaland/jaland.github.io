@@ -2,7 +2,7 @@
 layout: post
 title:  "Tekton(Openshift Pipeline) Pushing to quay.io"
 tags: openshift tekton pipeline task helm
-category: openshift
+category: tekton
 ---
 
 # Tekton Pipelines pushing to Quay.io
@@ -29,6 +29,7 @@ https://github.com/Jaland/push-image-tekton-pipeline
 ## Pull Secret
 
 Before we create the task we are going to need to create a pull `secret` so Openshift will have the credentials to pull/push to our repository.
+
 ---
 **IMPORTANT**
 
@@ -38,11 +39,7 @@ Any credentials you push will be accessable by other people who share that repos
 
 ---
 
-
-
-If you would like to create a helm chart I found a very nice helper method on the [Creating Image Pull Secrets](https://helm.sh/docs/howto/charts_tips_and_tricks/) section of the Helm Tips and Tricks page.
-
-Otherwise you can create our pull secret by running the following command:
+To create our pull secret by running the following command:
 
 #### **`secret/docker-registry`**
 ```
