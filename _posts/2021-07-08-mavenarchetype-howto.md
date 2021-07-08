@@ -5,6 +5,4 @@ tags: spring springboot openshift logging
 category: spring
 ---
 
-# Logging in Cloud Environments
-
-TBD
+# Creating a Maven Archetype from an existing project

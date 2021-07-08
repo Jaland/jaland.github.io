@@ -16,3 +16,20 @@ Deleting a remote branch
 ```bash
 git push origin --delete <BRANCH_NAME>
 ```
+
+# Setting up SSH Keys
+
+This allows you to push from your local computer without having to supply username/password
+
+First lets create the SSH Key:
+
+1. Paste the following:
+    * `ssh-keygen -o`
+2. Fill in required information, I used default key location
+3. Retrieve and copy the public key information `cat ~/.ssh/id_rsa.pub`
+
+
+Now let's add our public key to our Github account
+* Navigate to `settings -> SSH and GPG keys`
+* Click `New SSH key`
+* Paste the information from your public key inside of the textbox and save
