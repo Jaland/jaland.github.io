@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tips and Tricks for Oauth on Openshift 4"
+title:  "Logging in Cloud Environments"
 tags: spring springboot openshift logging
 category: spring
 ---
