@@ -32,4 +32,6 @@ First lets create the SSH Key:
 Now let's add our public key to our Github account
 * Navigate to `settings -> SSH and GPG keys`
 * Click `New SSH key`
-* Paste the information from your public key inside of the textbox and save
+* Paste the information from your public key inside the textbox and save
+
+Should not be able to pull using SSH.
