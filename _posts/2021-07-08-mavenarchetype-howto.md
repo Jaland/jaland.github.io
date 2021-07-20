@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Creating and Using Maven Archetype"
-tags: spring springboot openshift logging
-category: spring
+tags: mvn archetype spring springboot
+category: mvn
 ---
 
 # Creating a Maven Archetype from an existing project
