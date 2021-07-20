@@ -7,7 +7,9 @@ category: tekton
 
 # Tekton taks for callling another tekton pipeline
 
-The Task below will call a tekton pipeline (passed in by the `PIPELINE_NAME` param) and wait for it to complete. Note that the task completes successfully regardless of success or failure but adding logic to chage that shoudl be fairly simple.
+The Task below will call a tekton pipeline (passed in by the `PIPELINE_NAME` param) and wait for it to complete. 
+
+**Note:** that the task completes successfully regardless of success or failure but adding logic to chage that shoudl be fairly simple.
 
 ```
 apiVersion: tekton.dev/v1beta1
