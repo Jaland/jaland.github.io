@@ -25,7 +25,7 @@ mvn archetype:generate
 Or include all the values directly in the cmd
 
 ```
-mvn archetype:generate
+mvn archetype:generate \
     -DarchetypeGroupId=org.example.archetype \
     -DarchetypeArtifactId=example-archetype \
     -DarchetypeVersion=1.0.0-SNAPSHOT \
