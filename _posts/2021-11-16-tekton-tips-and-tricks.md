@@ -7,11 +7,12 @@ category: tekton
 
 # Intro
 
-I am going to use this as a notepad for some different tips and tricks I have learned while using tekton
+At this point I have had some time with to work Tekton (Specifically the "Openshift Pipelines" flavor). Having some experience with Jenkins a similar tool I can say that Tekton has some major advantages and disadvantages. 
 
+On the positive side. Since Tekton is built into the control plane, and is defined through CRD(Custom Resource Definitions), I personally find it easier to understand how to use from a Kubernetes perspective. It also makes it makes for a better IaC experience than a Jenkins file.
 
-## Useful Functions
+On the other side, Tekton does still feel like a fairly immature technology as of the writing of this article. There are a lot of quality of life items that it feels like it is missing. For one there seems to be no good way to continue running a pipeline that failed half way through, you just have to restart it. Also one feature that Jenkins has is the ability to mark a pipeline as "unstable" if certain conditions are met where you don't want to fail the pipeline. There are a hand full of other items that feel like they have not been fully flushed out but hopefully that will be fleshed out over time. 
 
-| Function | How To Use | Example | Extra Tips |
-| -------- | ---------- | ------- |----------- |
-| `required` | This function can be used to force a user to fill in a value, and what I find really makes it one of my favorite functions is the fact you can give a return message which is very obvious straight forward feedback. | `{{ .Value.requiredValue \| required ".Value.requiredValue is required, can be included through the cli using --set or by adding the value to your values.yaml file"}}` |
+# General Notes
+
+TBD
