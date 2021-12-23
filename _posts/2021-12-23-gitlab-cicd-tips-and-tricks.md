@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Gitlab CI/CD Tips and Tricks"
-tags: tekton openshift pipelines cicd
-category: tekton
+tags: gitlab openshift pipelines cicd
+category: gitlab
 ---
 
 # Intro
