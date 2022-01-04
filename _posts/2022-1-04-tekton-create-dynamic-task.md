@@ -41,7 +41,7 @@ metadata:
       name: root-task
       kind: Task
     # The `lastTask` variable will represent the last task that was run
-    \{{- $lastTask := "rootTask"}} 
+    {{ printf "{{ - $lastTask := "rootTask"}}" }} 
   # You may want some additional logic incase `optionalTask` does not exist
   {{- if optionalTask1.enabled }}
   - name: optionalTask1
