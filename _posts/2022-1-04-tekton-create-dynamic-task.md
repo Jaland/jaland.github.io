@@ -30,6 +30,7 @@ optionalTask2:
     enabled: true
 ```
 
+{% raw %}
 ```yaml
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
@@ -41,9 +42,9 @@ metadata:
       name: root-task
       kind: Task
     # The `lastTask` variable will represent the last task that was run
-    {{ printf "{{ - $lastTask := \"rootTask\"}}" }} 
+    {{- $lastTask := "rootTask" }}
   # You may want some additional logic incase `optionalTask` does not exist
-  {{- if optionalTask1.enabled }}
+  {{- if .Values.optionalTask1.enabled }}
   - name: optionalTask1
     taskRef:
       name: optional-task-1
@@ -51,7 +52,7 @@ metadata:
       - {{ $lastTask }}
     {{- $lastTask = "optionalTask1"}}
   {{- end }}
-  {{- if optionalTask2.enabled }}
+  {{- if .Values.optionalTask2.enabled }}
   - name: optionalTask2
     taskRef:
       name: optional-task-2
@@ -61,3 +62,4 @@ metadata:
   {{- end }}
   # Adding any more task from here should be a copy and paste of the above logic.
 ```
+{% endraw %}
