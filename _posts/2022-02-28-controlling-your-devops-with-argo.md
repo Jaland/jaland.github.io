@@ -99,7 +99,7 @@ Now we get to the fun part... :boom: Deploying our Application and Infrastructur
 
 ## Installing ArgoCD
 
-Now we will need to install an instance of ArgoCD onto our `developer-gitops` namespace. More information on how to do can be found in my other blog post [here](2022-02-28-creating-an-argo-instance.md).
+Now we will need to install an instance of ArgoCD onto our `developer-gitops` namespace. More information on how to do can be found in my other blog post [here](https://jaland.github.io/gitops/2022/02/28/controlling-your-devops-with-argo.html).
 
 ## Set up Argo AppProject
 
