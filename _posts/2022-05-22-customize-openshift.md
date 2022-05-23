@@ -40,6 +40,21 @@ Further customization can be done by adding a custom logo using the following co
 oc create configmap console-custom-logo --from-file /path/to/console-custom-logo.png -n openshift-config
 ```
 
+Then update your cluster's `Console` object to use the new values:
+
+``` yaml
+apiVersion: operator.openshift.io/v1
+kind: Console
+metadata:
+  name: cluster
+spec:
+  customization:
+    customLogoFile:
+      key: console-custom-logo.png
+      name: console-custom-logo
+    customProductName: My Console
+```
+
 # More Resources
 
 More information about customization can be found on the official documentation [here](https://docs.openshift.com/container-platform/4.9/web_console/customizing-the-web-console.html)
