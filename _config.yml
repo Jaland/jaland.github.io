@@ -7,3 +7,6 @@ github_username: jaland
 
 # Google Analytics
 google_analytics: G-VZNNPT24WF
+
+plugins:
+  - jekyll-spaceship
