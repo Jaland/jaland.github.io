@@ -61,12 +61,12 @@
   </body>
   {% if page.mermaid %}
   <script src="https://code.jquery.com/jquery-3.6.2.min.js" type="text/javascript"></script>
-  <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
+  <script src="https://unpkg.com/mermaid@9.3.0/dist/mermaid.min.js"></script>
   <script>
     $(document).ready(function () {
       mermaid.initialize({
         startOnLoad:true,
-        theme: "default",
+        theme: "forest",
       });
       window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
     });
