@@ -49,8 +49,8 @@ flowchart LR
     cache[(In-Memory Cache)]
     end
     
-    gLogin --1. User Log's In --> qLogin
-    gLogin --2. Change to Lobby Scene --> gLobby
+    gLogin -- 1. User Log's In --> qLogin
+    gLogin -- 2. Change to Lobby Scene --> gLobby
     gLobby -- "3. Show Main Lobby (All Games)" --> qLobby
     gLobby -- 4. User Chooses/Creates Game --> qLobby
     gLobby -- 5. Show Game Lobby --> qLobby
