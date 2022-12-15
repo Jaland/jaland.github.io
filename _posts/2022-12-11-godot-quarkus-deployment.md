@@ -36,7 +36,7 @@ Most of the the more technical information can be found in the two repositories 
 
 ```mermaid
 
-flowchart TD
+flowchart LR
     subgraph gc[Godot Client]
     gLogin(Login Scene)
     gLobby(Main/Game Lobby Scene)
