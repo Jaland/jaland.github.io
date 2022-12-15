@@ -62,10 +62,10 @@
   {% if page.mermaid %}
   <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
   <script>
-    $(document).ready(function () {
+    document.onload(function () {
       mermaid.initialize({
         startOnLoad:true,
-        theme: "foren",
+        theme: "forest",
       });
       window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
     });
