@@ -32,9 +32,9 @@ The final part I want to mention real quick is the communication between the fro
 
 # Architectures
 
-Most of the the more techincal information can be found in the two repositories README files files. But I want to give a high level architectures picture here.
+Most of the the more technical information can be found in the two repositories README files files. But I want to give a high level architectures picture here.
 
-```mermaid!
+```mermaid
 
 flowchart TD
     subgraph gc[Godot Client]
