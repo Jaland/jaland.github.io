@@ -14,7 +14,7 @@ Last year I created a [top 100 list of board games](https://jaland.github.io/fun
 Color Scale:
 
 * <span style="color:DarkRed">Dark Red</span> <= -25 spots
-* <span style="color:LightRed">Red</span> <= -12 spots
+* <span style="color:LightPink">Red</span> <= -12 spots
 * <span style="color:LightYellow">Yellow</span> > -12 spots $$ < 12
 * <span style="color:LightGreen">Green</span> >= 12 spots
 * <span style="color:DarkGreen">Dark Green</span> >= 25 spots
@@ -44,19 +44,19 @@ Color Scale:
 1. Incan Gold <span style="color:LightBlue">(NEW!)</span>
 1. Ultimate Werewolf: Ultimate Edition <span style="color:LightYellow">(-5)</span>
 1. Startups <span style="color:LightBlue">(NEW!)</span>
-1. Blood Rage <span style="color:LightRed">(-17)</span>
+1. Blood Rage <span style="color:LightPink">(-17)</span>
 1. Sheriff of Nottingham <span style="color:LightYellow">(-3)</span>
-1. Gloomhaven <span style="color:LightRed">(-15)</span>
+1. Gloomhaven <span style="color:LightPink">(-15)</span>
 1. Tzolk'in: The Mayan Calendar <span style="color:LightYellow">(-4)</span>
 1. Unicorn Fever <span style="color:DarkGreen">(+60)</span>
 1. Decrypto <span style="color:LightYellow">(+10)</span>
-1. Mage Knight Board Game <span style="color:LightRed">(-18)</span>
+1. Mage Knight Board Game <span style="color:LightPink">(-18)</span>
 1. Lords of Waterdeep <span style="color:LightYellow">(+5)</span>
 1. Deception: Murder in Hong Kong <span style="color:LightYellow">(-1)</span>
 1. Forgotten Waters <span style="color:LightYellow">(-9)</span>
 1. Viticulture World: Cooperative Expansion <span style="color:LightBlue">(NEW!)</span>
 1. Century: Spice Road <span style="color:LightYellow">(+11)</span>
-1. Two Rooms and a Boom <span style="color:LightRed">(-15)</span>
+1. Two Rooms and a Boom <span style="color:LightPink">(-15)</span>
 1. Sleeping Gods <span style="color:LightYellow">(-1)</span>
 1. Love Letter <span style="color:LightYellow">(+7)</span>
 1. Ticket to Ride <span style="color:LightGreen">(+22)</span>
@@ -66,7 +66,7 @@ Color Scale:
 1. PARKS <span style="color:LightYellow">(+11)</span>
 1. For Sale <span style="color:LightGreen">(+14)</span>
 1. Telestrations <span style="color:DarkGreen">(+27)</span>
-1. Dominion <span style="color:LightRed">(-12)</span>
+1. Dominion <span style="color:LightPink">(-12)</span>
 1. Kingsburg <span style="color:LightYellow">(+1)</span>
 1. Dwellings of Eldervale <span style="color:DarkGreen">(+30)</span>
 1. Cat in the Box: Deluxe Edition <span style="color:LightBlue">(NEW!)</span>
@@ -74,10 +74,10 @@ Color Scale:
 1. Cthulhu Wars <span style="color:LightGreen">(+13)</span>
 1. Twilight Imperium: Third Edition <span style="color:LightYellow">(-5)</span>
 1. Dungeon Fighter <span style="color:DarkRed">(-26)</span>
-1. Betrayal at Baldur's Gate <span style="color:LightRed">(-22)</span>
-1. Dominion (Second Edition) <span style="color:LightRed">(-21)</span>
+1. Betrayal at Baldur's Gate <span style="color:LightPink">(-22)</span>
+1. Dominion (Second Edition) <span style="color:LightPink">(-21)</span>
 1. CATAN <span style="color:LightBlue">(NEW!)</span> 
-1. Eldritch Horror <span style="color:LightRed">(-13)</span>
+1. Eldritch Horror <span style="color:LightPink">(-13)</span>
 1. Terra Mystica <span style="color:LightYellow">(+1)</span>
 1. Codenames <span style="color:LightBlue">(NEW!)</span>
 1. Unlock!: Mystery Adventures <span style="color:DarkRed">(-25)</span>
@@ -92,21 +92,21 @@ Color Scale:
 1. Small World <span style="color:LightBlue">(NEW!)</span>
 1. Patchwork <span style="color:LightYellow">(+10)</span>
 1. Thunderstone Quest <span style="color:DarkRed">(-53)</span>
-1. Spirit Island <span style="color:LightRed">(-23)</span>
-1. Cosmic Encounter <span style="color:LightRed">(-22)</span>
+1. Spirit Island <span style="color:LightPink">(-23)</span>
+1. Cosmic Encounter <span style="color:LightPink">(-22)</span>
 1. Condottiere <span style="color:LightBlue">(NEW!)</span>
 1. Choose Your Own Adventure: House of Danger <span style="color:LightYellow">(0)</span>
 1. Targi <span style="color:LightBlue">(NEW!)</span>
-1. Wingspan <span style="color:LightRed">(-24)</span>
+1. Wingspan <span style="color:LightPink">(-24)</span>
 1. Race for the Galaxy <span style="color:LightBlue">(NEW!)</span>
 1. Blood on the Clocktower <span style="color:LightBlue">(NEW!)</span>
 1. The Lord of the Rings: Journeys in Middle-Earth <span style="color:DarkRed">(-51)</span>
-1. Brass: Birmingham <span style="color:LightRed">(+17)</span>
-1. Citadels <span style="color:LightRed">(-15)</span>
+1. Brass: Birmingham <span style="color:LightPink">(+17)</span>
+1. Citadels <span style="color:LightPink">(-15)</span>
 1. The Thing: Infection at Outpost 31 <span style="color:LightBlue">(NEW!)</span>
 1. The Mind <span style="color:DarkRed">(-27)</span>
 1. Chronicles of Crime <span style="color:LightYellow">(-6)</span>
-1. Rising Sun <span style="color:LightRed">(-24)</span>
+1. Rising Sun <span style="color:LightPink">(-24)</span>
 1. Libertalia <span style="color:LightBlue">(NEW!)</span>
 1. Vast: The Crystal Caverns <span style="color:LightYellow">(-5)</span>
 1. Root <span style="color:LightBlue">(NEW!)</span>
@@ -117,7 +117,7 @@ Color Scale:
 1. Seasons <span style="color:DarkRed">(-38)</span>
 1. Shadows over Camelot <span style="color:DarkRed">(-29)</span>
 1. 7 Wonders <span style="color:LightBlue">(NEW!)</span>
-1. Onitama <span style="color:LightRed">(-15)</span>
+1. Onitama <span style="color:LightPink">(-15)</span>
 1. Arkham Horror <span style="color:LightBlue">(NEW!)</span>
 1. Tiny Epic Dungeons <span style="color:LightBlue">(NEW!)</span>
 1. Zombicide <span style="color:LightBlue">(NEW!)</span>
