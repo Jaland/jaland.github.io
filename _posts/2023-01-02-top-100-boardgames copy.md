@@ -41,7 +41,7 @@ Color Scale:
 1. Scythe <span style="color:GoldenRod">(-8)</span>
 1. Dogs of War <span style="color:GoldenRod">(-6)</span>
 1. The Crew: Mission Deep Sea <span style="color:GoldenRod">(0)</span>
-1. Incan Gold <span style="color:LightBlue">(NEW!)</span>
+1. Incan Gold <span style="color:Green">(+16)</span>
 1. Ultimate Werewolf: Ultimate Edition <span style="color:GoldenRod">(-5)</span>
 1. Startups <span style="color:LightBlue">(NEW!)</span>
 1. Blood Rage <span style="color:DeepPink">(-17)</span>
@@ -88,7 +88,7 @@ Color Scale:
 1. Dominant Species <span style="color:DarkRed">(-25)</span>
 1. Pandemic Legacy: Season 1 <span style="color:LightBlue">(NEW!)</span>
 1. Letter Jam <span style="color:LightBlue">(NEW!)</span>
-1. The Resistance: Avalon <span style="color:DarkRed">(+35)</span>
+1. The Resistance: Avalon <span style="color:DarkRed">(-35)</span>
 1. Small World <span style="color:LightBlue">(NEW!)</span>
 1. Patchwork <span style="color:GoldenRod">(+10)</span>
 1. Thunderstone Quest <span style="color:DarkRed">(-53)</span>
@@ -101,7 +101,7 @@ Color Scale:
 1. Race for the Galaxy <span style="color:LightBlue">(NEW!)</span>
 1. Blood on the Clocktower <span style="color:LightBlue">(NEW!)</span>
 1. The Lord of the Rings: Journeys in Middle-Earth <span style="color:DarkRed">(-51)</span>
-1. Brass: Birmingham <span style="color:DeepPink">(+17)</span>
+1. Brass: Birmingham <span style="color:Green">(+17)</span>
 1. Citadels <span style="color:DeepPink">(-15)</span>
 1. The Thing: Infection at Outpost 31 <span style="color:LightBlue">(NEW!)</span>
 1. The Mind <span style="color:DarkRed">(-27)</span>
@@ -126,7 +126,7 @@ Color Scale:
 
 Looking at the list I wanted to break down some thoughts on why things changed and general trends for me this year.
 
-### Items that went up the list (Green)
+### Items that went Up (Green)
 
 Looking at the green items on the list I am noticing three themes.
 
@@ -134,4 +134,26 @@ The first and most prominent one is an increase in games that are easy to get to
 
 The second theme of games taking major jumps are games my wife enjoys playing. While we don't play every weekend she has become my major gaming partner, so anything I can trick her into playing with me is a major plus on my list, and `Lost Cities` got a huge bump for that. She is also obsessed with `Unicorn Fever` which is why that one is so high as well.
 
-And the final theme where is less pronounced I think are a couple heavier games that have grown on my over time. I think Dune, Cthulhu Wars, and Dwellings of Eldervale are games that the more I think back on my playtime with them, the more fond my memories are.
+And the final theme where is less pronounced I think are a couple heavier games that have grown on my over time. I think Dune (I know only +6 but I made it green since it was already so high), Cthulhu Wars, and Dwellings of Eldervale are games that I initially enjoyed but the more I think back on my playtime with them, the more fond my memories are. Cthulhu Wars in particular is one I want to get back too and try out again.
+
+#### Biggest Riser
+
+I am going to mention three games for my biggest risers that increased over 50 spots, all of which have been mentioned before
+
+**Unicorn Fever + 60 Spots**: This is just a game that my wife is obsessed with. Honestly I think the part where you are grabbing your bid chips drags a little bit, and setup is not quite as fast as I would like for a game that is this light. But while I think there are better games out there where you can bet on races this is the only that makes her the happiest, which is why I enjoy it so much.
+
+**Lost Cities + 68 Spots**: Super quick setup, plays pretty fast, lots of very interesting decisions, and most importantly my wife loves it. I can fit it in my backpack or pocket for when we visit breweries which is addition plus, but this game is so much fun!
+
+**Down Force + 55** I really enjoy both the bidding and racing stages in this game. It is a big hit with most of my friends, and fairly easy to explain/setup which is a major plus. I think the thing about this game that really made it rise through the ranks is that it is non-party game that I can bring out with people who do not play a lot of boardgames without having them fall asleep or zone out during the rules.
+
+### Items that went Down (Red)
+
+The only major Theme I see in a lot of the games that have had major drops on my list is play time, and especially setup time. Things like Gloomhaven/Mage Knight/Thunderstone Quest just take so long to setup that I don't ever see myself bringing them out. Honestly at this point in my life there are just too many really great games with shorter setup times. I am not even sure many of these games would hit the table even if I was with my more "gamer" friends
+
+That being said I have started doing some solo gaming and enjoyed my first playthrough of Mage Knight solo, so I will be interested to see where it lands next year.
+
+#### Biggest Faller
+
+**Thunderstone Quest - 53** I just recently received this game when I made this list last year so I think the super high ranking was based on a handful of plays. I still think this is one of my favorite deck building games I just wish it was more geared toward the "ultimate" variant. Having to find and pick out a set of cards to use can make setup a lot longer than I would like
+
+**The Lord of the Rings: Journeys in Middle-Earth -51** I want to like this game so much... but I can not find a group that will stay with me past the first game in the campaign. Maybe this is another one I will play solo and it will shoot back up the list but I am so sick of that first scenario that I can not rank it higher than this.
