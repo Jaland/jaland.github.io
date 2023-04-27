@@ -20,7 +20,7 @@ At the start of the game players will take turns putting out tiles with the foll
 - A center tile is place somewhere (does not matter where)
 - Each Tile has an arrow with a direction
 - Players take turns placing a tile adjacent to the previous tile
-  - The arrow on the tile the player place must point the **next** tile being placed
+  - The new tile **must** be placed where the previous tile is pointing
 
 That is really it that is all you need to know.
 
@@ -34,7 +34,7 @@ How to do this and make it look good is a little tricky so instaed of trying to 
 
 ## The Code
 
-> Note: this is the entire class below I will post the more relevant code
+> Note: This is **all** the relevant code. Sections below break it down more
 
 **Main Code**
 
@@ -274,67 +274,69 @@ func get_bottom_right_tile(tile_pos):
   return Vector2(x, y)
 ```
 
-## Tile Adjacency Code
-
-So the comments explain most of what is happening in the code below, but the goal of this method is just to take a new tile with position `tile_pos` and see if it is adjacent to the current tile with position `current_tile_pos`.
-
-> Note: Again the offset is kinda tough to wrap your mind around and it took me a little trial and error to actually get this totally working. Also I think the `+` and `-` may need to be swapped based on how you set up your `TileMap`.
-
-```go
-func tile_adjacent(tile_pos) -> bool:
-  var current_tile_pos = current_tile().position
-  # Check if tile is on the same row
-  if(current_tile_pos.y == tile_pos.y):
-    # Check if the tile is to the left or right of the current tile
-    if(current_tile_pos.x - 1 == tile_pos.x || current_tile_pos.x == tile_pos.x - 1):
-      return true
-    else:
-      print("Tile is on the same row but not adjacent")
-  # Check if the tile is one row above or below the current tile
-  elif(current_tile_pos.y == tile_pos.y + 1 || current_tile_pos.y == tile_pos.y - 1):
-    # Check if the tile is on the same column(s)
-    # Note because it is a hexigon everything is offset which changes for even and odd rows
-    # The following is based on the position of the **CURRENT TILE** not the new tile
-    
-    # So for even rows
-    # if the x's are equal then it is bottom/top right of the current tile
-    # if the new tile's x is x + 1 then it is bottom/top left of the current tile
-    if(is_even(current_tile_pos.y)):
-      if (current_tile_pos.x == tile_pos.x || current_tile_pos.x == tile_pos.x + 1):
-        return true
-      else:
-        print("Tile within one row but not adjacent (Even Row)")
-    
-    # So for odd rows
-    # if the new tile's x is x - 1 then it is bottom/top right of the current tile
-    # if the x's are equal then it is bottom/top left of the current tile
-    if(is_odd(current_tile_pos.y)):
-      if(current_tile_pos.x == tile_pos.x - 1 || current_tile_pos.x == tile_pos.x):
-        return true
-      else:
-        print("Tile within one row but not adjacent  (Odd Row)")
-  else:
-    print("Tile is not adjacent (not on same row or one row above/below)")
-  return false
-```
+-------------------------------------------------------
 
 **Utility Class Used to determine which way the tile is pointing**
 
 ```go
-class_name UkatoaUtils
+  class_name UkatoaUtils
 
 
-# Dictionary of all the tile types
-# Should match up with the numbers on `ship-tiles.tres`
-const ship_tile_types:Dictionary={
-  west=0,
-  north_west=1,
-  north_east=2,
-  east=3,
-  south_east=4,
-  south_west=5,
-}
+  # Dictionary of all the tile types
+  # Should match up with the numbers on `ship-tiles.tres`
+  const ship_tile_types:Dictionary={
+    west=0,
+    north_west=1,
+    north_east=2,
+    east=3,
+    south_east=4,
+    south_west=5,
+  }
 
+```
+
+## Tile Adjacency Code
+
+So the comments explain most of what is happening in the code below, but the goal of this method is just to take a new tile with position `tile_pos` and see if it is adjacent to the current tile with position `current_tile_pos`.
+
+> Note: Again the offset is kinda tough to wrap your mind around and it took me a little trial and error to actually get this totally working. Also I think the `+`/`-` or `even`/`odd` logic may need to be swapped based on how you set up your `TileMap`.
+
+```go
+  func tile_adjacent(tile_pos) -> bool:
+    var current_tile_pos = current_tile().position
+    # Check if tile is on the same row
+    if(current_tile_pos.y == tile_pos.y):
+      # Check if the tile is to the left or right of the current tile
+      if(current_tile_pos.x - 1 == tile_pos.x || current_tile_pos.x == tile_pos.x - 1):
+        return true
+      else:
+        print("Tile is on the same row but not adjacent")
+    # Check if the tile is one row above or below the current tile
+    elif(current_tile_pos.y == tile_pos.y + 1 || current_tile_pos.y == tile_pos.y - 1):
+      # Check if the tile is on the same column(s)
+      # Note because it is a hexigon everything is offset which changes for even and odd rows
+      # The following is based on the position of the **CURRENT TILE** not the new tile
+      
+      # So for even rows
+      # if the x's are equal then it is bottom/top right of the current tile
+      # if the new tile's x is x + 1 then it is bottom/top left of the current tile
+      if(is_even(current_tile_pos.y)):
+        if (current_tile_pos.x == tile_pos.x || current_tile_pos.x == tile_pos.x + 1):
+          return true
+        else:
+          print("Tile within one row but not adjacent (Even Row)")
+      
+      # So for odd rows
+      # if the new tile's x is x - 1 then it is bottom/top right of the current tile
+      # if the x's are equal then it is bottom/top left of the current tile
+      if(is_odd(current_tile_pos.y)):
+        if(current_tile_pos.x == tile_pos.x - 1 || current_tile_pos.x == tile_pos.x):
+          return true
+        else:
+          print("Tile within one row but not adjacent  (Odd Row)")
+    else:
+      print("Tile is not adjacent (not on same row or one row above/below)")
+    return false
 ```
 
 ## Tile Direction Code
@@ -375,7 +377,7 @@ func get_position_of_next_tile(tile_pos: Vector2, tile_type: int) -> Vector2:
   get_tree().quit()
   return Vector2(0,0)
 
-# Utility Fu  nctions
+# Utility Functions
 func current_tile():
   return ship_tiles[ship_tiles.size() - 1]
   
