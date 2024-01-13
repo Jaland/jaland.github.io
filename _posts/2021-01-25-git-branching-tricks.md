@@ -35,3 +35,7 @@ Now let's add our public key to our Github account
 * Paste the information from your public key inside the textbox and save
 
 Should not be able to pull using SSH.
+
+# Adding Existing PEM to SSH Keys
+
+If a `pem` already exist just add to your private keys with `ssh-add <PATH TO KEY>` (note you may need to `chmod 400`).
