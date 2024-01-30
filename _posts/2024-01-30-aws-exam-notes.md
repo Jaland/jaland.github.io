@@ -9,32 +9,7 @@ category: aws certification
 
 Just wanted to capture the set of notes I took while going through the Cloud Guru course in attempts to get the AWS exam. I did not bother refining them but there is some decent high-level info I can refer to about the different AWS services in the future.
 
-<!-- Copy and paste the converted output. -->
-
-<!-----
-
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 0
-* ALERTS: 2
-
-Conversion time: 9.43 seconds.
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β35
-* Tue Jan 30 2024 06:38:22 GMT-0800 (PST)
-* Source doc: AWS Notes
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
------>
+Note incase someone else finds these. It covers a lot but there were defiantly some stuff on the exam not covered by these notes.
 
 ## AWS Notes
 
