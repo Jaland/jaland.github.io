@@ -2,7 +2,7 @@
 layout: post
 title:  "Logging in Cloud Environments"
 tags: spring springboot openshift logging
-category: spring
+categories: spring
 ---
 
 # Logging in Cloud Environments

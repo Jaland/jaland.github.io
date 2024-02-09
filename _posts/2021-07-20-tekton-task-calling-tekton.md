@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Tekton Tast for calling another Tekton Pipeline"
 tags: openshift tekton
-category: tekton
+categories: tekton
 ---
 
 # Tekton taks for callling another tekton pipeline

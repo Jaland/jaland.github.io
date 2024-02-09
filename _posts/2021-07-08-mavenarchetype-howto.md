@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating and Using Maven Archetype"
 tags: mvn archetype spring springboot
-category: mvn
+categories: mvn
 ---
 
 # Creating a Maven Archetype from an existing project

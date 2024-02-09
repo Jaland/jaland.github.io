@@ -2,7 +2,7 @@
 layout: post
 title:  "Rebasing Git Commits"
 tags: github git
-category: git
+categories: git
 ---
 
 # Squashing Git Commits

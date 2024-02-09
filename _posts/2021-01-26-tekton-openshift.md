@@ -2,7 +2,7 @@
 layout: post
 title:  "Tekton(Openshift Pipeline) Pushing to quay.io"
 tags: openshift tekton pipeline task helm
-category: tekton
+categories: tekton
 ---
 
 # Tekton Pipelines pushing to Quay.io

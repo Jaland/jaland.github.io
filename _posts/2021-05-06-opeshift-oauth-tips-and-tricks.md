@@ -2,7 +2,7 @@
 layout: post
 title:  "Tips and Tricks for Oauth on Openshift 4"
 tags: openshift ui
-category: openshift
+categories: openshift
 ---
 
 # Tips and Tricks for Openshift 4 UI

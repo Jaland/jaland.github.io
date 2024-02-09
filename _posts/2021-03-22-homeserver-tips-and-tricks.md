@@ -2,7 +2,7 @@
 layout: post
 title:  "Home Server Tips and Tricks"
 tags: homeserver linux
-category: homeserver
+categories: homeserver
 ---
 
 ## My Current Setup

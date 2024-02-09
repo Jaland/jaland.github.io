@@ -2,7 +2,7 @@
 layout: post
 title:  "Openshift Installation on Fedora Server 33"
 tags: openshift fedora crc
-category: openshift
+categories: openshift
 ---
 
 > Note: Still having issues, if you find this article don't use it.

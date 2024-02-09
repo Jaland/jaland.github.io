@@ -2,7 +2,7 @@
 layout: post
 title:  "My top 100 Boardgames 2021"
 tags: fun boardgames
-category: fun
+categories: fun
 ---
 
 # The Method

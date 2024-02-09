@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Tekton pipeline with a Dynamic Task List"
 tags: tekton openshift pipelines cicd
-category: tekton
+categories: tekton
 ---
 
 Happy New Year!!! :boom:

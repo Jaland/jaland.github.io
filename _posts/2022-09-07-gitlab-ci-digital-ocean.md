@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Github CI to Deploy to Digital Ocean"
 tags: github-ci github ci digital-ocean
-category: ci
+categories: ci
 ---
 
 

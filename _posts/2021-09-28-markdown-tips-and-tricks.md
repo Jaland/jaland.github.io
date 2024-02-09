@@ -2,7 +2,7 @@
 layout: post
 title:  "Tips and Tricks for Markdown"
 tags: markdown
-category: markdown
+categories: markdown
 ---
 
 # Intro

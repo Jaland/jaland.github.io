@@ -2,7 +2,7 @@
 layout: post
 title:  "Tips and Tricks for Openshift 4 UI"
 tags: openshift ui
-category: openshift
+categories: openshift
 ---
 
 # Tips and Tricks for Openshift 4 UI

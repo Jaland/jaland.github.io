@@ -2,7 +2,7 @@
 layout: post
 title:  "ArgoCD on Openshift - HelloWorld"
 tags: openshift kubernetes operators helloworld
-category: openshift
+categories: openshift
 ---
 
 # ArgoCD on Openshift - HelloWorld

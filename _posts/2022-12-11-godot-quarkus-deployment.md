@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Lobby System using Godot and Quarkus"
 tags: github-ci github ci/cd godot quarkus gitops digital ocean
-category: godot
+categories: godot
 mermaid: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Gitlab CI/CD Tips and Tricks"
 tags: gitlab openshift pipelines cicd
-category: gitlab
+categories: gitlab
 ---
 
 # Intro

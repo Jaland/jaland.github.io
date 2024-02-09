@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating an AWS CLI Container"
 tags: AWS
-category: aws cli openshift containers
+categories: aws cli openshift containers
 ---
 
 # Creating an AWS CLI Container

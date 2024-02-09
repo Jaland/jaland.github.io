@@ -2,7 +2,7 @@
 layout: post
 title:  "Install helm on a Dockerfile"
 tags: docker helm openshift
-category: docker
+categories: docker
 ---
 
 ## Install helm on a Dockerfile

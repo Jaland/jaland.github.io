@@ -7,3 +7,27 @@ github_username: jaland
 
 # Google Analytics
 google_analytics: G-VZNNPT24WF
+
+# config.yaml
+other_works:
+  - title: Introduction to OpenAPI with Apicurio
+    url: https://appdev.consulting.redhat.com/tracks/contract-first/introduction-to-openapi-and-apicurio.html
+  - title: OpenAPI Generator
+    url: https://appdev.consulting.redhat.com/tracks/contract-first/openapi-generator.html
+  - title: OpenAPI Generator Templating
+    url: https://appdev.consulting.redhat.com/tracks/contract-first/customizing-openapi-generator-templates.html
+  - title: OpenAPI Security
+    url: https://appdev.consulting.redhat.com/tracks/contract-first/security-with-openapi.html
+  - title: Tekton Task
+    url: https://appdev.consulting.redhat.com/tracks/devops/tekton-task.html
+  - title: Tektton Pipeline
+    url: https://appdev.consulting.redhat.com/tracks/devops/tekton-pipelines.html
+  - title: OWASP Dependency Check
+    url: https://appdev.consulting.redhat.com/tracks/devtools/owasp-dependency-check.html
+  - title: OWASP Zed Attack Proxy & ZAP HUD
+    url: https://appdev.consulting.redhat.com/tracks/devtools/owasp-zap-hud.html
+  - title: Introduction to Helm
+    url: https://appdev.consulting.redhat.com/tracks/devtools/helm-intro.html
+  - title: Cross Account access on ROSA Clusters using OIDC
+    url: https://cloud.redhat.com/experts/rosa/cross-account-access-openid-connect/
+  # Add more works as needed

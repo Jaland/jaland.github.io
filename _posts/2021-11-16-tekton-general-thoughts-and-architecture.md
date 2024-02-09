@@ -2,7 +2,7 @@
 layout: post
 title:  "Tekton General Thoughts and Architecture"
 tags: tekton openshift pipelines cicd
-category: tekton
+categories: tekton
 ---
 
 # Intro

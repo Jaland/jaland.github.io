@@ -2,7 +2,7 @@
 layout: post
 title:  "Tips and Tricks Docker"
 tags: docker
-category: docker
+categories: docker
 ---
 
 

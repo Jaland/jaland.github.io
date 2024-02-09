@@ -2,7 +2,7 @@
 layout: post
 title:  "My top 100 Boardgames 2023"
 tags: fun boardgames
-category: fun
+categories: fun
 ---
 
 # Board Game List 2023

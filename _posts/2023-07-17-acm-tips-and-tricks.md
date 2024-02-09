@@ -2,7 +2,8 @@
 layout: post
 title:  "Advance Cluster Management (ACM) Tips and Tricks"
 tags: acm
-category: acm openshift
+categories: acm openshift
+render_with_liquid: false
 ---
 
 # Advance Cluster Management (ACM) Tips and Tricks

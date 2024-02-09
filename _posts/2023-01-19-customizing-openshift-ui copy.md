@@ -2,7 +2,7 @@
 layout: post
 title:  "Customizing Openshift Menu"
 tags: openshift consolelink
-category: Openshift
+categories: Openshift
 ---
 
 # Customize Openshift Menu

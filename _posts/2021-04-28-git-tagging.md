@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating git tag"
 tags: git
-category: git
+categories: git
 ---
 
 # Create Git Tag

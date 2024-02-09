@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up an ArgoCD instance on Openshift"
 tags: argocd gitops openshift49
-category: gitops
+categories: gitops
 ---
 
 

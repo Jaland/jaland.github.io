@@ -2,7 +2,7 @@
 layout: post
 title:  "Ansible Tips and Tricks"
 tags: ansible
-category: ansible
+categories: ansible
 ---
 
 # Intro

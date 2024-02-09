@@ -2,7 +2,7 @@
 layout: post
 title:  "Controlling your DevOps with Argo"
 tags: tekton argocd gitops openshift openshift49
-category: gitops
+categories: gitops
 ---
 
 # Introduction

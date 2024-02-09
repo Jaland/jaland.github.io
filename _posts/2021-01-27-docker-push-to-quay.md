@@ -2,7 +2,7 @@
 layout: post
 title:  "Pull image and push to Quay"
 tags: docker quay
-category: docker
+categories: docker
 ---
 
 # **PTP** - Pull Tag Push

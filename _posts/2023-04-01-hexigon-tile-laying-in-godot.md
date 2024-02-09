@@ -2,7 +2,7 @@
 layout: post
 title:  "Hexagonal Tile Laying in Godot"
 tags: godot
-category: Godot
+categories: Godot
 ---
 
 # Hexagonal Tile Laying in Godot

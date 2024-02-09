@@ -2,13 +2,81 @@
 ---
 
 @import "{{ site.theme }}";
+
+.category.openshift {
+  background: #D00000;
+  color: #ffffff;
+}
+
+.category.kubernetes {
+  background: #326CE5;
+}
+
+.category.docker , .category.containers {
+  background: #0DB7ED;
+}
+
+.category.ansible {
+  background: #EE0000;
+  color: #ffffff;
+}
+
+.category.git , .category.github , .category.gitlab {
+  background: #F1502F;
+}
+
+.category.aws {
+  background: #FF9900;
+}
+
+.category.terraform {
+  background: #5C4EE8;
+}
+
+.category.cli {
+  background: #000000;
+  color: #ffffff;
+}
+
+.category.markdown {
+  background: #c6c7ff;
+}
+
+.category.fun {
+  background: #FF00FF;
+}
+
+.category.helm {
+  background: #0DB7ED;
+}
+
+.category.tekton {
+  background: #FF9900;
+}
+
+.category.spring {
+  background: #6DB33F;
+}
+
+.category.mvn {
+  background: #FF9900;
+}
+
+.category.java {
+  background: #FF9900;
+}
+
+.category.godot {
+  background: #696969;
+}
+
 .category {
   border-radius: 13px;
   background: #73AD21;
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: large;
+  font-size: small;
   vertical-align: middle;
 }
 

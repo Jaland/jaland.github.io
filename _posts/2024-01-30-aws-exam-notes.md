@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS AWS Certified Solutions Architect - Associate Exam Notes"
 tags: AWS
-category: aws certification
+categories: aws certification
 ---
 
 # Intro

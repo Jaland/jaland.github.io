@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS Tips and Tricks"
 tags: AWS
-category: aws cli ec2
+categories: aws cli ec2
 ---
 
 # Intro
@@ -20,7 +20,7 @@ az account set --subscription <name or id>
 And you can see your current subscription with:
 
 ```sh
-pool-01-152
+az account show
 ```
 
 ## DNS
@@ -28,6 +28,10 @@ pool-01-152
 If your service has a public IP address you can update your DNS pretty quickly by choosing using the `Azure Resource` alias type and choosing Azure resource
 
 ![](assets/living_post/azure-tips/dns-a-record.png)
+
+## Service Principle
+
+Finding SPs seem to be a pain in the butt! Best way I found is if you know the ID of the SP then you can search for it and find the specific object.
 
 ## ARO
 

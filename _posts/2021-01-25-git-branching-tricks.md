@@ -2,7 +2,7 @@
 layout: post
 title:  "Git Tricks for Branching"
 tags: github
-category: git
+categories: git
 ---
 
 # Some tips and tricks I have found for GitHub branching over the years
